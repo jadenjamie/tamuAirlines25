@@ -9,10 +9,10 @@ import { PROMPT_TEMPLATE } from "./promptTemplate";
  * @param {string} input
  * @return {Promise<string>}
  */
-async function getResponse(input: string): Promise<string> {
+export async function getResponseFromLLM(input: string): Promise<string> {
   const prompt = PromptTemplate.fromTemplate(PROMPT_TEMPLATE);
   const parser = new StringOutputParser();
   const chain = prompt.pipe(model).pipe(parser)
-  const response = await chain.invoke(input)
+  const response = await chain.invoke({ question: input})
   return response
 }
