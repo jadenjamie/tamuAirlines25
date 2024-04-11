@@ -6,13 +6,20 @@ import { PROMPT_TEMPLATE } from "./promptTemplate";
 /**
  * Get answer from LLM to given input
  *
- * @param {string} input
- * @return {Promise<string>}
+ * @param {string} input - The question
+ * @return {Promise<string>} - The answer
  */
 export async function getResponseFromLLM(input: string): Promise<string> {
-  const prompt = PromptTemplate.fromTemplate(PROMPT_TEMPLATE);
-  const parser = new StringOutputParser();
+  // Create a Prompt template
+  const prompt = PromptTemplate.fromTemplate(PROMPT_TEMPLATE)
+
+  // Create a String Parser
+  const parser = new StringOutputParser()
+
+  // Create a chain
   const chain = prompt.pipe(model).pipe(parser)
+
+  // Call the chain
   const response = await chain.invoke({ question: input})
   return response
 }
