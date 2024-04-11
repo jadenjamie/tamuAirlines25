@@ -8,14 +8,14 @@ To install dependencies:
 bun install
 ```
 
-Create an .env
+Create an `.env` file:
 
 ```
 PORT=3000
 OPENAI_API_KEY="<your-api-key>"
 ```
 
-Update the test.rest file
+Update the `test.rest` file:
 
 ```
 POST http://localhost:3000
