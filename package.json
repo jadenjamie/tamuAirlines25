@@ -1,6 +1,6 @@
 {
   "name": "simple-llm-api",
-  "module": "index.ts",
+  "module": "server.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
