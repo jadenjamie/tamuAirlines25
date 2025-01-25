@@ -63,7 +63,7 @@ def defineParams(origin, dest, date):
     } 
     
 
-defineParams('Dullus-Fort Woah', 'LAX', '2005-06-02') #('XYX', 'XYX', YYYY-MM-DD)
+defineParams('Dullus-Fort Woah', 'LAX', '2005-06-02') #('XYX', 'XYX', YYYY-MM-DD) //This can be commented out once output is gotten
 
 # Make the GET request to the API
 response = requests.get(f"{BASE_URL}{endpoint}", params=params)
