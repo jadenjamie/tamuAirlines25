@@ -22,7 +22,7 @@ export default function Search() {
 
   return (
     <div className="min-h-screen flex flex-col bg-neutral-950">
-      <div className="flex-grow container mx-auto p-4 bg-neutral-950">
+      <div className="grow container mx-auto p-4 bg-neutral-950">
         <h1 className="text-4xl font-bold mb-4 text-white text-center">Dream Destination Finder</h1>
         <div className="flex flex-col mb-4 bottom-10 mx-auto text-white w-1/2 h-auto">
           <Textarea placeholder="Describe your dream destination. i.e. beach, nightlife, city">

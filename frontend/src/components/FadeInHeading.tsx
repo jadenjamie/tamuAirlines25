@@ -18,7 +18,7 @@ export function FadeInHeading({ text, delay = 0, duration = 1000 }: FadeInHeadin
 
   return (
     <h1
-      className="text-8xl font-bold text-white "
+      className="text-8xl font-bold text-white drop-shadow-2xl"
       style={{
         opacity: isVisible ? 1 : 0,
         transition: `opacity ${duration}ms ease-in-out`,
