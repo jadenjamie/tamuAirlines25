@@ -24,6 +24,9 @@ export function TextInputForm() {
     setResult(JSON.stringify(result, null, 2))
   }
 
+  const lines = result?.split("\n");
+  console.log(lines);
+
   return (
     <div className="max-w-1/2 mx-auto mt-10 text-2xl">
       <form action={handleSubmit} className="space-y-4 text-2xl">
@@ -35,7 +38,6 @@ export function TextInputForm() {
         className="w-full bg-white text-2xl" />
         <SubmitButton/>
       </form>
-      {result && <pre className="mt-4 p-4 bg-gray-100 rounded overflow-x-auto text-sm">{result}</pre>}
     </div>
   )
 }

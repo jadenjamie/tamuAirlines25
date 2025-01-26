@@ -1,0 +1,11 @@
+/home/jaren/projects/tamuAirlines25/rs-server/target/debug/deps/libwriteable-c5c9b1a241ae9667.rmeta: /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/lib.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/cmp.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/impls.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/ops.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/parts_write_adapter.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/testing.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/try_writeable.rs
+
+/home/jaren/projects/tamuAirlines25/rs-server/target/debug/deps/writeable-c5c9b1a241ae9667.d: /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/lib.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/cmp.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/impls.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/ops.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/parts_write_adapter.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/testing.rs /home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/try_writeable.rs
+
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/lib.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/cmp.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/impls.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/ops.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/parts_write_adapter.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/testing.rs:
+/home/jaren/.cargo/registry/src/index.crates.io-6f17d22bba15001f/writeable-0.5.5/src/try_writeable.rs:

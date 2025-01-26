@@ -2,10 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image'
-import Link from 'next/link'
-import { Button } from "@/components/ui/button"
-import { FadeInHeading } from "@/components/FadeInHeading"
-import { Textarea } from "@/components/ui/textarea"
 import { TextInputForm } from "@/components/TextInputForm"
 
 function App() {
@@ -21,6 +17,7 @@ function App() {
           objectFit="cover"
           priority
         />
+      
       </div>
 
       {/* Main Content */}
@@ -29,8 +26,11 @@ function App() {
           <h1 className="font-sans text-8xl font-bold text-white">Find Your Dream Destination</h1>
           
         </div>
+        <div className="h-screen w-screen flex flex-row justify-center space-x-4">
+        
+        </div>
         <div className="text-center w-full absolute bottom-64 !text-3xl">
-          <TextInputForm className="!text-3xl important"></TextInputForm>
+          <TextInputForm></TextInputForm>
         </div>
       </main>
 
