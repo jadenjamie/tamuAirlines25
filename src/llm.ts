@@ -20,6 +20,8 @@ export async function getResponseFromLLM(input: string): Promise<string> {
   const chain = prompt.pipe(model).pipe(parser)
 
   // Call the chain
-  const response = await chain.invoke({ question: input})
+  const response = await chain.invoke({ 
+    description: input
+  })
   return response
 }
