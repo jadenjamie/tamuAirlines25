@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Simple LLM API
 
 In this project, I just created an simple Prompt+LLM+Parser App.
@@ -64,3 +65,6 @@ export async function getResponseFromLLM(input: string): Promise<string> {
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/LangChain_logo.svg" width="60px" height="60px"/>&nbsp;
   <img src="https://www.cdnlogo.com/logos/o/38/openai.svg" width="60px" height="60px"/>&nbsp;
 </div>
+=======
+This is our TamuHacks 2025 Project. It is a Python website that utilizes a Python backend and Django frontend.
+>>>>>>> origin
