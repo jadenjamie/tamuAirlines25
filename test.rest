@@ -1,6 +1,0 @@
-POST http://localhost:3000
-content-type: application/json
-
-{
-  "input": "Comment s'appelle le plus célébre des Beatles ?"
-}

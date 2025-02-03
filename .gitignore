@@ -175,3 +175,6 @@ dist
 .DS_Store
 
 node_modules/
+
+rs-server/target
+rs-server/Cargo.lock
