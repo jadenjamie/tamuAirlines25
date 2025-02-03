@@ -6,7 +6,6 @@ check github issues tab.
 npm install -g bun
 ```
 2. Need [rustup/cargo](https://www.rust-lang.org/tools/install)
-3. Server is currently hosted on my domain, will not be up unless I am working on it for now.
 
 ## RUN COMMANDS
 **FRONT END**
