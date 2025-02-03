@@ -1,4 +1,5 @@
 check github issues tab.
+its lowkey 1.5gb repo 😭😭😭
 
 ## REQUIREMENTS
 1. You will need [bun](https://bun.sh/docs/installation). 
