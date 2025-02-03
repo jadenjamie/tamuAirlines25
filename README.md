@@ -11,6 +11,7 @@ npm install -g bun
 **FRONT END**
 ```
 cd svelte-frontend
+bun install
 bun run dev
 ```
 **BACK END**
