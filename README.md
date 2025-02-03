@@ -1,70 +1,37 @@
-<<<<<<< HEAD
-# Simple LLM API
+check github issues tab.
 
-In this project, I just created an simple Prompt+LLM+Parser App.
-
-To install dependencies:
-
-```bash
-bun install
+## REQUIREMENTS
+1. You will need [bun](https://bun.sh/docs/installation). 
 ```
-
-Create an `.env` file:
-
+npm install -g bun
 ```
-PORT=3000
-OPENAI_API_KEY="<your-api-key>"
+2. Need [rustup/cargo](https://www.rust-lang.org/tools/install)
+3. Server is currently hosted on my domain, will not be up unless I am working on it for now.
+
+## RUN COMMANDS
+**FRONT END**
 ```
-
-Update the `test.rest` file:
-
+cd svelte-frontend
+bun run dev
 ```
-POST http://localhost:3000
-content-type: application/json
-
-{
-  "input": "<your-question>"
-}
+**BACK END**
 ```
-
-To run:
-
-```bash
-bun run start
+cd rs-server
+cargo run
 ```
+## THINGS TO KNOW
 
-## How it works:
-```
-/**
- * Get answer from LLM to given input
- *
- * @param {string} input - The question
- * @return {Promise<string>} - The answer
- */
-export async function getResponseFromLLM(input: string): Promise<string> {
-  // Create a Prompt template
-  const prompt = PromptTemplate.fromTemplate(PROMPT_TEMPLATE)
+Ask an LLM to explain these to you tbh.
 
-  // Create a String Parser
-  const parser = new StringOutputParser()
+SVELTE (probably more important)
+- [svelte tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte) similar to rustlings but for svelte.
+- [svelte docs](https://svelte.dev/docs/svelte/overview) good for reference.
 
-  // Create a chain
-  const chain = prompt.pipe(model).pipe(parser)
+RUST (not as important because backend is mostly done for now)
+- [rust book](https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html) good refernce
+- [rust by example](https://doc.rust-lang.org/rust-by-example/) lots of examples good
+- [rustlings](https://github.com/rust-lang/rustlings) very good to learn rust but takes a few days. If you want to learn rust I reccomend it.
+- [async rust](https://rust-lang.github.io/async-book/) async rust programming. might be worth to read a little.
 
-  // Call the chain
-  const response = await chain.invoke({ question: input})
-  return response
-}
+Rust crates we are using are axum (for routing), tokio (needed for async), serde, serde_json (needed for json parsing). There is a few other crates but not as important.
 
-```
-
-### This project was created with:
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" width="60px" height="60px"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="60px" height="60px"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/LangChain_logo.svg" width="60px" height="60px"/>&nbsp;
-  <img src="https://www.cdnlogo.com/logos/o/38/openai.svg" width="60px" height="60px"/>&nbsp;
-</div>
-=======
-This is our TamuHacks 2025 Project. It is a Python website that utilizes a Python backend and Django frontend.
->>>>>>> origin
