@@ -25,6 +25,11 @@ Ask an LLM to explain these to you tbh.
 SVELTE (probably more important)
 - [svelte tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte) similar to rustlings but for svelte.
 - [svelte docs](https://svelte.dev/docs/svelte/overview) good for reference.
+- svelte has a vscode extension and an intellij plugin.
+
+TAILWINDCSS (important for svelte stuff)
+- [tailwind css](https://tailwindcss.com/docs/styling-with-utility-classes)
+- get a tailwind extension for vscode or intellij as well. nice for auto completion.
 
 RUST (not as important because backend is mostly done for now)
 - [rust book](https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html) good refernce
